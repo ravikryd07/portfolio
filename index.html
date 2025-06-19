@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Ravi Kumar - Aspiring Software Developer" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+
+  <!-- 🌗 Theme Toggle -->
+  <div class="theme-toggle">
+    <button title="Toggle Theme">🌗</button>
+  </div>
+
+  <!-- ☰ Menu Toggle for small screens -->
+  <button class="menu-toggle" onclick="document.querySelector('.sidebar').classList.toggle('hidden')">
+    ☰
+  </button>
+
+  <!-- 🧭 Sidebar Navigation -->
+  <aside class="sidebar">
+    <div class="profile-pic">
+      <img src="https://media.licdn.com/dms/image/v2/D5603AQGvOy05vR0s0g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1718240652367?e=1755734400&v=beta&t=thwzulsxRq3P7i0nLEdTQMQQ4fQhsqwBew8zTC4ybC4" alt="Sidebar Profile" />
+    </div>
+    <h2 style="text-align:center;">Portfolio</h2>
+    <nav>
+      <ul class="cylindrical-nav">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">My Projects</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <!-- 🔍 Main Content -->
+  <main>
+    <!-- Section: About -->
+    <section id="about" class="section about">
+      <div id="particles-js"></div>
+      <div class="about-content">
+      <div class="intro-text">
+        <h1>Hi I'm Ravi</h1>
+        <div class="animated-text"></div>
+      </div>
+      <div class="flip-container">
+        <div class="flipper">
+          <img src="https://media.licdn.com/dms/image/v2/D5603AQGvOy05vR0s0g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1718240652367?e=1755734400&v=beta&t=thwzulsxRq3P7i0nLEdTQMQQ4fQhsqwBew8zTC4ybC4" alt="Front Profile Image">
+          <img src="https://media.licdn.com/dms/image/v2/D5603AQGvOy05vR0s0g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1718240652367?e=1755734400&v=beta&t=thwzulsxRq3P7i0nLEdTQMQQ4fQhsqwBew8zTC4ybC4" alt="Back Profile Image" class="back">
+        </div>
+      </div>
+      <p>I’m Ravi, a B.Tech student with a strong interest in software development. I specialize in both front-end and back-end technologies, and I'm actively building projects that reflect my technical skills and problem-solving capabilities.
+
+I continuously strive to improve by challenging myself and gaining hands-on experience. My approach combines practical development work with logical thinking, allowing me to create efficient, scalable, and user-focused solutions. With a solid foundation and a growth-oriented mindset, I am committed to becoming a well-rounded and impactful software developer.
+
+</p>
+      <div class="resume-buttons">
+  <a href="https://drive.google.com/file/d/1WHGuGCLbn5BrcD30pYZZ_dOZoDnPG_Az/view?usp=drivesdk" target="_blank" class="btn">View Resume</a>
+  <a href="https://drive.google.com/uc?export=download&id=1WHGuGCLbn5BrcD30pYZZ_dOZoDnPG_Az" class="btn" download>Download Resume</a>
+</div>
+
+    </section>
+
+   
+
+    <!-- Section: Education -->
+  <section id="education" class="section">
+   <h2 class="section-title edu-heading"><span class="edu-icon">🎓</span> Education</h2>
+  <div class="education-container">
+    <svg class="svg-connector" viewBox="0 0 4 1000" preserveAspectRatio="none">
+      <path d="M2,0 Q4,50 2,100 Q0,150 2,200 Q4,250 2,300 Q0,350 2,400 Q4,450 2,500 Q0,550 2,600 Q4,650 2,700" fill="none" stroke="purple" stroke-width="2"/>
+    </svg>
+
+    <div class="education-block">
+      <div class="icon-box"><i class="fas fa-school"></i></div>
+      <div class="year-dot">2019-2020</div>
+      <div class="edu-details">
+        <h3>School</h3>
+        <p>APS GAYA</p>
+      </div>
+    </div>
+
+    <div class="education-block">
+      <div class="icon-box"><i class="fas fa-graduation-cap"></i></div>
+      <div class="year-dot">2020-2023</div>
+      <div class="edu-details">
+        <h3>Diploma</h3>
+        <p>Budhha Institute of Technology</p>
+      </div>
+    </div>
+
+    <div class="education-block">
+      <div class="icon-box"><i class="fas fa-laptop-code"></i></div>
+      <div class="year-dot">2023-2026</div>
+      <div class="edu-details">
+        <h3>B.Tech (CSE)</h3>
+        <p>KCC Institute of Tech. & Mgmt</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+    
+
+    <!-- Section: Skills -->
+    <section id="skills" class="section skills">
+      <h2 class="section-title animated-heading"><span class="skill-icon">💻</span>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-box"><i class="fab fa-cuttlefish"></i><p>C++</p></div>
+        <div class="skill-box"><i class="fab fa-java"></i><p>Java</p></div>
+        <div class="skill-box"><i class="fas fa-leaf"></i><p>Spring Boot</p></div>
+        <div class="skill-box"><i class="fab fa-python"></i><p>Python</p></div>
+        <div class="skill-box"><i class="fas fa-database"></i><p>MySQL</p></div>
+        <div class="skill-box"><i class="fab fa-html5"></i><p>HTML</p></div>
+        <div class="skill-box"><i class="fab fa-css3-alt"></i><p>CSS</p></div>
+        <div class="skill-box"><i class="fab fa-js"></i><p>JavaScript</p></div>
+        <div class="skill-box"><i class="fab fa-react"></i><p>ReactJS</p></div>
+      </div>
+    </section>
+
+    
+
+    <!-- Section: My Projects -->
+    <section id="projects" class="section projects">
+      <h2 class="section-title project-heading">
+  <i class="fas fa-layer-group project-icon"></i> My Projects
+</h2>
+
+      <div class="project-grid">
+        <div class="project-card">
+          <div class="project-thumb" style="background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/1ec53470062059.5b96e0430b362.jpg'); background-size: cover; background-position: center;"></div>
+
+          <h3>Food Web – Restaurant Website</h3>
+          <p>A responsive restaurant website where owners can update menus and prices dynamically. It showcases dishes, prices, and contact options for customers.</p>
+          <div class="project-buttons">
+            <a href="https://github.com/ravikryd07/website/tree/main/Food-Web-master" class="btn" target="_blank">View Code</a>
+            <a href="#" class="btn">Live Demo</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-thumb" style="background-image: url('https://cdn.dribbble.com/users/5720644/screenshots/13912339/media/cfc570f6891e4aef4ae3c5282a767847.gif'); background-size: cover; background-position: center;"></div>
+          <h3>Portfolio</h3>
+          <p> All the essential details about me are shared here to give you a clear insight into my background and capabilities. Feel free to explore and get to know me better!</p>
+          <div class="project-buttons">
+            <a href="" class="btn">View Code</a>
+            <a href="#" class="btn">Live Demo</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <!-- Section: Contact Us -->
+    <section id="contact" class="section">
+      <div id="contact-particles"></div>
+
+  <div class="contact-wrapper">  <!-- Now styled as the container box -->
+    <!-- Left Side: Info -->
+    <div class="contact-info">
+      <h2>Let's Connect 🤝</h2>
+      <p><i class="fas fa-phone"></i> 7482942556</p>
+      <p><i class="fas fa-envelope"></i> ravikryd07@gmail.com</p>
+      <p><i class="fab fa-linkedin"></i>
+        <a href="https://linkedin.com/in/ravi-kumar-8a4087253" target="_blank">Linkedin</a>
+      </p>
+      <p><i class="fab fa-github"></i>
+        <a href="https://github.com/ravikryd07" target="_blank">GitHub</a>
+      </p>
+    </div>
+
+    <!-- Right Side: Form -->
+    <form class="contact-box">
+      <div class="input-group">
+        <input type="text" name="name" required />
+        <label>Full Name</label>
+      </div>
+      <div class="input-group">
+        <input type="email" name="email" required />
+        <label>Email</label>
+      </div>
+      <div class="input-group">
+        <input type="tel" name="phone" required />
+        <label>Phone Number</label>
+      </div>
+      <div class="input-group">
+        <textarea name="message" rows="4" required></textarea>
+        <label>Your Message</label>
+      </div>
+      <div class="btn-wrapper">
+        <button type="submit" class="btn">Send</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+
+
+
+
+   
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>© All rights reserved 🙂 Ravi Kumar</p>
+    </footer>
+  </main>
+</body>
+
+</html>
